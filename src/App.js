@@ -4,7 +4,6 @@ import Login from './components/Login';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import AdminDashboard from './components/AdminDashboard';
 //import ProtectedLogin from './components/ProtectedLogin';
-//import Appbar from './components/Appbar';
 import StoryList from './components/StoryList';
 import AddStory from './components/AddStory';
 import Homepage from './components/Homepage';
@@ -15,10 +14,6 @@ import AdvertList from './components/AdvertList';
 function App() {
   return (
     <div>
-      {/* <Appbar/>
-      <Homepage/>
-      <br/><br/> */}
-      {/* <StoryList/> */}
       
       <BrowserRouter>
         <Routes>
