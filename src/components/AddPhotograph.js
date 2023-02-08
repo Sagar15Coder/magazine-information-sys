@@ -55,7 +55,7 @@ export default function AddPhotograph() {
                                     onChange={(e)=>setDesc(e.target.value)}
                                 />
                                 <Button variant="contained" color="secondary" onClick={handleButton}>Submit</Button>
-                                <Button variant="outlined" color="error" href="/">Cancel</Button>
+                                <Button variant="outlined" color="error" href="/magazine-information-sys">Cancel</Button>
                             </Box>
                             
                             
