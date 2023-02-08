@@ -62,7 +62,7 @@ export default function AddAdvert() {
 
                                         
                                     <Button variant="contained" color="secondary" onClick={handleButton}>Submit</Button>
-                                    <Button variant="outlined" color="error" href="/">Cancel</Button>
+                                    <Button variant="outlined" color="error" href="/magazine-information-sys">Cancel</Button>
                                 </form>
 
                             </Grid>
