@@ -8,6 +8,7 @@ import StoryList from './components/StoryList';
 import AddStory from './components/AddStory';
 import Homepage from './components/Homepage';
 import EditStory from './components/EditStory';
+import AddPhotograph from './components/AddPhotograph';
 import AddAdvert from './components/AddAdvert';
 import AdvertList from './components/AdvertList';
 
@@ -26,7 +27,7 @@ function App() {
           <Route exact path="/addstory" element={<AddStory />} />
           <Route exact path="/stories" element={<StoryList />} />
           <Route exact path="/story/:id" element={<EditStory />} />
-
+          <Route exact path="/addphotograph" element={<AddPhotograph />} />
           <Route exact path="/addadvert" element={<AddAdvert />} />
           <Route exact path="/adverts" element={<AdvertList />} />
         </Routes>
