@@ -54,7 +54,7 @@ export default function StoryList() {
                                 
             </tbody>
             </table>
-            <Button variant="outlined" startIcon={<AddIcon />} href="/addstory">Add Story</Button>
+            <Button variant="outlined" startIcon={<AddIcon />} href="#/addstory">Add Story</Button>
         </div>
     </div>
     

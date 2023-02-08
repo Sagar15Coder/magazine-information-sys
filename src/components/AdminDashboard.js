@@ -31,25 +31,25 @@ const AdminDashboard = () => {
                             >
                             
                             
-                            <Button variant="contained" size="large" fullWidth href="/stories">
+                            <Button variant="contained" size="large" fullWidth href="#/stories">
                                 Manage Stories
                             </Button>
                             
                             
-                            <Button variant="contained" size="large" fullWidth href="/photographs">
+                            <Button variant="contained" size="large" fullWidth href="#/photographs">
                                 Manage Photographs
                             </Button>
                             
                             
-                            <Button variant="contained" size="large" fullWidth href="/adverts">
+                            <Button variant="contained" size="large" fullWidth href="#/adverts">
                                 Manage Adverts
                             </Button>
 
-                            <Button variant="contained" size="large" fullWidth href="/magazine-issues">
+                            <Button variant="contained" size="large" fullWidth href="#/magazine-issues">
                                 Manage Magazine Issues
                             </Button>
                             
-                            <Button variant="outlined" color="error" href="/login">Log Out</Button>
+                            <Button variant="outlined" color="error" href="#/login">Log Out</Button>
 
                             </Box>
                             

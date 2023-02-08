@@ -1,7 +1,7 @@
 import React from 'react'
 import Appbar from './Appbar'
 import { Container, Grid, Button, Paper, Box } from "@mui/material";
-import { Link } from 'react-router-dom';
+
 
 const Homepage = () => {
   return (
@@ -31,17 +31,17 @@ const Homepage = () => {
                             >
                             
                             
-                            <Button variant="contained" size="large" fullWidth href="/addStory">
+                            <Button variant="contained" size="large" fullWidth href="#/addStory">
                                 Submit Story
                             </Button>
                             
                             
-                            <Button variant="contained" size="large" fullWidth href="/addPhotograph">
+                            <Button variant="contained" size="large" fullWidth href="#/addPhotograph">
                                 Submit photograph
                             </Button>
                             
                             
-                            <Button variant="contained" size="large" fullWidth href="/addAdvert">
+                            <Button variant="contained" size="large" fullWidth href="#/addAdvert">
                                 Submit Advert
                             </Button>
                             

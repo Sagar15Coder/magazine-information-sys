@@ -56,7 +56,7 @@ export default function AdvertList() {
                                 
             </tbody>
             </table>
-            <Button variant="outlined" startIcon={<AddIcon />} href="/addadvert">Add Advert</Button>
+            <Button variant="outlined" startIcon={<AddIcon />} href="#/addadvert">Add Advert</Button>
         </div>
     </div>
     

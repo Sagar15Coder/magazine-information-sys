@@ -1,7 +1,7 @@
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Login from './components/Login';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import AdminDashboard from './components/AdminDashboard';
 //import ProtectedLogin from './components/ProtectedLogin';
 import StoryList from './components/StoryList';
@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/login" element={<Login />} />
@@ -31,7 +31,7 @@ function App() {
           <Route exact path="/addadvert" element={<AddAdvert />} />
           <Route exact path="/adverts" element={<AdvertList />} />
         </Routes>
-      </BrowserRouter> 
+      </HashRouter> 
     </div>
   );
 }
